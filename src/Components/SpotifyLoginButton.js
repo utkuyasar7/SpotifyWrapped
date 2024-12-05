@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 const SpotifyAuthButton = () => {
-  const redirect_uri = "http://localhost:3000"; // Spotify geliştirici panelindeki geri dönüş URL
+  const redirect_uri = "https://spotify-wrapped-theta.vercel.app/"; // Spotify geliştirici panelindeki geri dönüş URL
 
   const handleLogin = () => {
     window.location.href = "https://yuge.com.tr/auth";
